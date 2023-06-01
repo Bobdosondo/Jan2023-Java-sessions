@@ -1,0 +1,24 @@
+package OOP_inheritance;
+
+public class Car extends Vehicle {
+
+	public void start() {
+		System.out.println("car  ---start");
+
+	}
+
+	public void stop() {
+		System.out.println("car   ---stop");
+
+	}
+
+	public void refuel() {
+		System.out.println("car ---refuel");
+
+	}
+	@Override
+	public void petrolEngine() {
+		System.out.println("Car ---petrolEnfine");
+	}
+
+}
